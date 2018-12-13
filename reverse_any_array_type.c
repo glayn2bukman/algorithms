@@ -39,8 +39,8 @@ void reverse(void *arr, size_t unit_size, size_t count){
     // also, because this function sorts data in-place, use function <reversed> if the array
     // is of readonly data as is the case for
     //
-    //      char *str = "hello, world!"; // str is holds CONSTANT char* data
-    //      reverse(str, sizeof(*str), strlen(str));
+    //      char *str = "hello, world!"; // str holds CONSTANT char* data
+    //      reverse(str, sizeof(*str), strlen(str)); // Undefined Behaviou
     //
     //      // better solution...
     //      char *str = "hello, world!";
