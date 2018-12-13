@@ -40,7 +40,7 @@ void reverse(void *arr, size_t unit_size, size_t count){
     // is of readonly data as is the case for
     //
     //      char *str = "hello, world!"; // str holds CONSTANT char* data
-    //      reverse(str, sizeof(*str), strlen(str)); // Undefined Behaviou
+    //      reverse(str, sizeof(*str), strlen(str)); // Undefined Behaviour
     //
     //      // better solution...
     //      char *str = "hello, world!";
