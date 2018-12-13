@@ -159,6 +159,31 @@ int main(){
     printf("\nstruct-array: { (%s,%d), (%s,%d) }",(*people).name,(*people).age,(*(people+1)).name,(*(people+1)).age);
     printf("\n");
 
+    /* --OUTPUT--
+i-array: 0 1 2 3 4 5 6 
+i-array: 6 5 4 3 2 1 0 
 
+f-array: 0.2300 4.5700 9.1800 0.6800 
+f-array: 0.6800 9.1800 4.5700 0.2300 
+
+c-array: hello there 
+c-array: ereht olleh 
+
+c-array: second string! 
+c-array: !gnirts dnoces 
+
+i2d-array: { (0,1), (2,3) }
+i2d-array: { (2,3), (0,1) }
+
+S-array: Hello Darkness My Old Friend 
+S-array: Friend Old My Darkness Hello 
+
+struct*-array: { (Tommy,21), (Jerry,25) }
+struct*-array: { (Jerry,25), (Tommy,21) }
+
+struct-array: { (Tommy,21), (Jerry,25) }
+struct-array: { (Jerry,25), (Tommy,21) }
+    */
+    
     return 0;
 }
